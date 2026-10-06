@@ -1,4 +1,10 @@
-# Enterprise HR Analytics Dashboard 🏢📊
+# 🏢 Enterprise HR Analytics Dashboard
+
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+
+---
 
 An end-to-end Enterprise HR Analytics project built using **SQL Server** for database structuring and **Power BI** for interactive workforce and compensation visualization[cite: 3]. This dashboard provides deep, data-driven insights into employee demographics, compensation structures, tenure metrics, and departmental performance.
 
@@ -14,6 +20,7 @@ The primary objective of this project is to transform raw human resources data i
 
 * **SQL Server / SSMS:** Data preparation, cleaning, structuring, and relational database management[cite: 3].
 * **Power BI:** Interactive dashboard design, complex DAX measures, data modeling, and custom tooltip integrations[cite: 3].
+* **Figma:** Dashboard UI/UX framing, custom background design, and color palette alignment.
 * **Star Schema Architecture:** Optimized relational data modeling joining fact tables with dimension tables for high performance[cite: 3].
 
 ---
@@ -30,27 +37,27 @@ The data model follows a robust **Star Schema** design to ensure optimal query p
 
 ## 🖥️ Dashboard Pages & Features
 
-### 1. Home Page
+### 1️⃣ Home Page
 A clean, professional landing interface designed with smooth navigation buttons and project branding.
 
 ![Home Page](Home.png)
 
-### 2. HR Overview
+### 2️⃣ HR Overview
 A high-level overview displaying key workforce metrics including total employees (290), gender distribution, age groups, top job titles, and department breakdowns[cite: 1, 12].
 
 ![HR Overview](Overview.png)
 
-### 3. Compensation & Workforce
+### 3️⃣ Compensation & Workforce
 A deep-dive financial and workforce page focusing on pay metrics, salary growth percentages, highest vs. lowest pay rates, and sick leave hours across departments[cite: 2, 9].
 
 ![Compensation & Workforce](Compensation%20&%20Workforce.png)
 
-### 4. Employee Details
+### 4️⃣ Employee Details
 A structured matrix view showcasing individual employee records, IDs, specific job titles, years of service, and precise compensation rates[cite: 8, 10].
 
 ![Employee Details](Employee%20Details.png)
 
-### 5. Interactive Tooltips
+### 5️⃣ Interactive Tooltips
 Custom-built dynamic tooltip page (`Tooltip_Department`) providing contextual metrics and micro-visualizations on hover[cite: 5].
 
 ![Tooltip Department](Tooltip_Department.png)
@@ -67,8 +74,5 @@ Custom-built dynamic tooltip page (`Tooltip_Department`) providing contextual me
 
 ---
 
-## 📌 How to View
-
-1. Clone or download the repository.
-2. Open the `.pbix` file using **Power BI Desktop**.
-3. Explore the interactive pages, relationships, and tooltips!
+### 👤 Created By:
+**Ebrahim Mustafa** — *Data Analyst & BI Analyst*
